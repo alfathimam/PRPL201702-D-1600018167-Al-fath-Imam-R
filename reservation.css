@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	/*background-image: url(img/back1.png);*/
+	color: white;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+	background-color: white;
+}
+
+.header {
+	background-color: purple;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header .judul {
+	color: gold;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: gold;
+}
+
+.hero {
+	height: 450px;
+	background-image: url(img/hotel.jpg);
+	background-size: cover;
+	background-position: 0 -320px;
+	/*border-top: 2px dotted white;*/
+	border-bottom: 1px dotted white;
+}
+
+.reservasi {
+	width: 800px;
+	background-color: white;
+	margin: 30px auto;
+	border: 1px solid gray;
+}
+
+.reservasi h1 {
+	color: gray;
+	font-size: 27px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.reservasi table {
+	margin: 30px auto;
+}
+
+.reservasi label {
+	color: gray;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.reservasi td {
+	padding-left: 20px;
+}
+
+input {
+	height: 30px;
+	width: 500px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 20px;
+}
+
+.reservasi select {
+	width: 300px;
+	height: 30px;
+	padding-left: 5px;
+	font-size: 17px;
+}
+
+
+.reservasi button {
+	width: 190px;
+	height: 30px;
+	color: gray;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+
+
+.footer {
+	background-color: purple;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
